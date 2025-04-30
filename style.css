@@ -1,0 +1,92 @@
+body{
+    background-color: #b0b4ea;
+}
+
+.home-banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     margin-top: 10px;
+     background: #212671;
+     padding-top: 20px;
+     padding-bottom: 30px;  
+ }
+
+ .home-banner-foto{
+    padding: auto;
+    border-radius: 2%;
+    box-shadow: 10px 10px 5px #00000080;  
+    width: 1000px;
+     height: auto; 
+}
+
+.navbar-brand{
+    padding: 5px;
+    width: auto;
+    height: 50px;
+    color: #212671;
+    font-weight: bold;
+}
+
+.container-sm{
+    background-color: #212671;
+    border-radius: 5%;
+    padding: 25px;
+}
+
+.titulo-definicao{
+    color: aliceblue;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:oblique;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.texto-definicao{
+    color:aliceblue;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.col{
+    background-color: #212671;
+}
+
+.titulo-conceitos{
+    color: #1b1e50;
+    font-weight: bold;
+    justify-self: center;
+}
+
+.col-definicoes{
+    background-color: aliceblue;
+    color: #1b1e50;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.conceitos-nomes{
+    color: aliceblue;
+}
+
+.card{
+    margin: 50px ;
+}
+
+.card-header{
+    color: #1b1e50;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.footer{
+    height: 60px;
+    width: auto;
+    background-color:#1b1e50;
+    color: aliceblue;
+    font-weight: 500;
+    justify-items: center;
+}

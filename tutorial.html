@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" type="imagex/png" href="img/mini-bot-png.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js\bootstrap.js"></script>
+    <script src="script.js"></script>
+    <title>Orientação a Objetos</title>
+</head>
+<body>
+  <div class="nav-cor">
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/mini-bot-png.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Tutorial: Introdução à Orientação a Objetos
+      </a>
+    </div>
+  </nav>
+  </div>
+
+      <div class="home-banner">
+        <img class="home-banner-foto" src="img/banner-home.jpeg" alt="...">
+        </div>
+        <br><br><br>
+        <div class="container-sm">
+          <br>
+        <h1 class="titulo-definicao">DEFINIÇÃO</h1>
+        <br>
+        <p class="texto-definicao">A Orientação a Objetos é um modo de organizar o desenvolvimento de um software por meio de objetos. Esses objetos são instâncias de classes e combinam dados (atributos ou propriedades) e comportamentos (métodos ou funções) relacionados.</p>
+        </div>
+        <br><br><br><br>
+        <div class="container-md">
+        <h1 class="titulo-conceitos">CONCEITOS</h1>
+        <br>
+    <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <h4 class="conceitos-nomes">OBJETOS</h4>
+            <p class="col-definicoes"><br>Uma coleção de dados (propriedades) e funcionalidades (métodos) que representa uma entidade. É uma instância de um tipo, embora em JavaScript, objetos possam ser criados diretamente sem a necessidade explícita de uma classe tradicional na sua sintaxe mais básica.<br><br></p>
+          </div>
+          <div class="col">
+            <h4 class="conceitos-nomes">PROPRIEDADES</h4>
+            <p class="col-definicoes"><br><br>Atributos ou características de um objeto. Armazenam dados que descrevem o estado do objeto. São associações entre nomes (chaves) e valores.<br><br><br><br></p>
+          </div>
+          <div class="col">
+            <h4 class="conceitos-nomes">MÉTODOS</h4>
+            <p class="col-definicoes"><br> Funções que estão associadas a um objeto e definem o comportamento ou as ações que o objeto pode realizar. São propriedades de um objeto cujo valor é uma função. Dentro de um método, a palavra-chave this geralmente se refere ao objeto ao qual o método pertence.<br><br></p>
+          </div>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+      <div class="card">
+        <div class="card-header">
+          Exemplo 1
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">OBJETO: Humano</h5>
+          <p class="card-text">let humano = {<br>
+            nome: "Sofia",<br>
+            idade: 16,<br>
+            profissao: "Programadora",<br>
+            saudar: function() {<br>
+              console.log(`Olá, meu nome é ${this.nome}.`);<br>
+            }<br>
+          };<br>
+          console.log(humano);<br>
+          humano.saudar();</p>
+          <button type="button" id="botaoObjeto" class="btn btn-primary" onclick="humano.saudar()">Executar</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          Exemplo 2
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">FUNÇÃO: Multiplicação</h5>
+          <p class="card-text">function multiplicacao(num) {<br>
+            return num * 2;<br>
+          }<br>
+          let result = multiplicacao(9);<br>
+          console.log(result);</p>
+          <button type="button" id="botaoFuncao" class="btn btn-primary" onclick="alert(`O dobro de 9 é: ${multiplicacao(9)}`)">Executar</button>
+        </div>
+      </div>
+     
+      <div class="footer">
+        <footer>
+          <br>
+          <p class="rodape">&copy; 2024 Sofia Parreira.
+  Todos os direitos reservados.</p>
+      </footer>
+      </div>
+</body>
+</html>
